@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+/* common css */
 :root{
     --primary-color:#A82C48;
 }
@@ -8,9 +9,13 @@ body{
     margin: 0;
     padding: 0;   
 }
+
+/* header part */
+a{
+    border-radius: 10px;
+}
 a:hover{
     background-color: var(--primary-color);
-    border-radius: 10px;
     color: white !important;
 }
 .navigation-wrap{
@@ -23,4 +28,32 @@ a:hover{
 .navigation-wrap .nav-item{
     padding: 0 0.625rem;
     /* transition: all 200ms linear; */
+}
+.nav-link{
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--primary-color);
+}
+.navigation-wrap .main-btn{
+    padding: 0.3125rem 1.4375rem;
+    box-shadow: none;
+    margin-left: 0.625rem;
+}
+.main-btn{
+    border-radius: 10px;
+}
+ .main-btn:hover{
+    background-color: var(--primary-color);
+    color: white !important;
+}
+
+/* section-1 top banner */
+.top-banner{
+    width: 100%;
+    background-image: url(../images/bg/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    padding: 16.875rem 0 9.375rem;
 }
