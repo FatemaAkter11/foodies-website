@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+    --primary-color:#A82C48;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;   
+}
+a:hover{
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    color: white !important;
+}
+.navigation-wrap{
+    position: fixed;
+    width: 100%;
+    /* left: 0;
+    z-index: 1000;
+    transition: all 0.3s ease-out; */
+}
+.navigation-wrap .nav-item{
+    padding: 0 0.625rem;
+    /* transition: all 200ms linear; */
+}
