@@ -21,3 +21,27 @@ body{
 }
 
 /* main part design */
+/* section-1 top banner */
+ .top-banner{
+    background-image: url(../images/bg/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    padding: 15rem;
+ } 
+ .order-btn{
+     border: 2px solid orchid;
+     background-color: burlywood;
+     border-radius: 5px;
+     font-weight: 600;
+ }
+ .order-btn:hover{
+    background-color:aqua;
+ }
+ /* section-2 bg design */
+ .bg{
+     background-color: brown;
+ }
+ .text{
+     color: white;
+ }
