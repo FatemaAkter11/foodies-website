@@ -64,3 +64,8 @@ body{
     background-size: cover;
     padding: 12rem;
  } 
+
+ /* footer part  */
+ footer{
+     background-color: brown;
+ }
